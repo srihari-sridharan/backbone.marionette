@@ -242,7 +242,7 @@ var rm = new Marionette.RegionManager();
 
 rm.on("region:remove", function(name, region){
 
-  // add the region instance to an object
+  // remove the region instance from an object
   delete myObject[name];
 
 });
